@@ -1,0 +1,77 @@
+Users:
+- Id
+- PersonalNumber
+- FirstName
+- LastName
+- Unit
+- Rank
+- PasswordHash
+- IsActive
+- CreatedAt
+- UpdatedAt
+
+Roles:
+SOLDAT
+VORGESETZTER
+ADMIN
+- Id
+- Name
+- Description
+
+UserRoles:
+- UserId
+- RoleId
+
+AbsenceTypes:
+- Id
+- Name
+- Description
+- IsActive
+
+AbsenceRequests:
+- Id
+- UserId
+- AbsenceTypeId
+- StartDate
+- EndDate
+- Reason
+- Status
+- CreatedAt
+- UpdatedAt
+- Status
+
+PENDING
+APPROVED
+REJECTED
+CANCELLED
+
+AbsenceDecisions:
+- Id
+- AbsenceRequestId
+- DecidedByUserId
+- Decision
+- DecisionReason
+- DecidedAt
+
+NfcTokens:
+- Id
+- UserId
+- TokenIdentifier
+- IsActive
+- IssuedAt
+- RevokedAt
+
+AuditLogs:
+- Id
+- UserId
+- ActionType
+- ActionDetails
+- IpAddress
+- CreatedAt
+
+LoginChallenges:
+- Id
+- UserId
+- CreatedAt
+- ExpiresAt
+- IsUsed

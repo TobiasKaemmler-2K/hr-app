@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "/G6MWdvk3ogs8IpZrNTpO7fk0/dtFpfI+O4448v6B/A=",
+  "Source": "HrApp.Api",
+  "BasePath": "_content/HrApp.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
